@@ -1,8 +1,6 @@
-const key = config.MY_KEY;
-
 class Weather {
   constructor() {
-    
+    this.key = config.MY_KEY;
     this.weatherURI = 'https://dataservice.accuweather.com/currentconditions/v1/';
     this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search';
   }

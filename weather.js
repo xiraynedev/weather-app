@@ -1,3 +1,5 @@
+const key = config.MY_KEY;
+
 class Weather {
   constructor() {
     
